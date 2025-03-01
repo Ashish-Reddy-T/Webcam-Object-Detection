@@ -37,8 +37,8 @@ pip install tensorflow opencv-python pillow numpy
 ### 1. Clone the Repository:
 
 ```
-git clone https://github.com/your-username/webcam-object-detection.git
-cd webcam-object-detection
+https://github.com/Ashish-Reddy-T/Webcam-Object-Detection.git
+cd Webcam-Object-Detection
 ```
 ### 2. Download the YOLOv3 Model:
 
