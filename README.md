@@ -93,6 +93,46 @@ When you run the script, you will see a window displaying the webcam feed with b
 
 ## Troubleshooting
 
+1. #### Webcam Not Opening:
+- Ensure your webcam is connected and accessible.
+- Check if OpenCV can access the webcam by running a simple OpenCV script.
+
+2. #### Model Not Found:
+- Ensure the YOLOv3 model file (`YOLO_model.h5`) is in the correct directory.
+- Download or train the model if it is missing.
+
+3. #### Low FPS:
+- Reduce the input resolution or use a lighter model for better performance.
+- Ensure your system has sufficient resources (CPU/GPU).
+
+---
+
+## Future Improvements
+
+- __Support for GPU Acceleration__:
+  - Modify the code to leverage GPU for faster inference.
+- __Multi-Object Tracking__:
+  - Implement object tracking to maintain IDs for detected objects across frames.
+- __Custom Object Detection__:
+ - Train the YOLOv3 model on a custom dataset for specific use cases.
+
+---
+
+## Credits
+
+- __YOLOv3 Model__: Joseph Redmon and Ali Farhadi (https://pjreddie.com/darknet/yolo/)
+- __OpenCV__: Open Source Computer Vision Library (https://opencv.org/)
+- __TensorFlow__: Machine Learning Framework (https://www.tensorflow.org/)
+
+---
+
+## License 
+
+This project is licensed under the MIT License.
+
+---
+
+#### Enjoy real-time object detection! Contributions and feedback are welcome. 😊
 
 
 
